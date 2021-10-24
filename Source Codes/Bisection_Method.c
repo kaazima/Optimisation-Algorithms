@@ -68,4 +68,5 @@ int main()
         printf("(%f,%f)\n",a,b);
     }while(fabs(diff_z)>e && count<n);
     printf("\nMinimum of the given function is at mid-point of (%f,%f) i.e, at %f\n",a,b,(a+b)/2);
+    printf("Bisection Method is successfully executed");
 }
